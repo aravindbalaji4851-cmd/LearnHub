@@ -1,0 +1,37 @@
+#=============== ACCOUNTS ENDPOINTS ==================
+
+# api call for creating admin user
+###
+POST http://127.0.0.1:8000/accounts/admin-register/
+Content-Type: application/json
+
+{
+    "username":"admin0",
+    "email":"admin0@gmail.com",
+    "password":"Password@123",
+    "phone":1234567892
+}
+
+# api call for creating trainer user
+###
+POST http://127.0.0.1:8000/accounts/trainer-register/
+Content-Type: application/json
+
+{
+    "username":"trainer0",
+    "email":"trainer0@gmail.com",
+    "password":"Password@123",
+    "phone":1234567111
+}
+
+# api call for creating student user
+###
+POST http://127.0.0.1:8000/accounts/student-register/
+Content-Type: application/json
+
+{
+    "username":"student0",
+    "email":"student0@gmail.com",
+    "password":"Password@123",
+    "phone":1234567811
+}
